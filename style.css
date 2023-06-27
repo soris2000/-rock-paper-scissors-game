@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 900px;
+}
+
+h2 {
+
+    margin-right: 10px;
+}
+
+p {
+    margin-bottom: 2px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.versus {
+    color: yellow;
+}
+
+#icon-versus {
+    color: #eaac0e;
+    font-size: 45px;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+#row_player_results,
+#row_cpu_results {
+    display: flex;
+    flex-direction: row;
+}
+
+.body_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#image_cpu,
+#image_player {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+#result_text {
+    color: yellow;
+    width: 250px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #efece6;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+}
+
+#row_cpu_board,
+#row_player_board {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+}
+
+#row_cpu_board>div {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+#row_player_board>div {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+#row_player_board>div:hover {
+    background-color: yellow;
+}

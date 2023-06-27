@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header"><!--Row-->
+            <div><!--Row-->
+                <h2>CPU</h2>
+                <div id="row_cpu_results">
+                </div>
+            </div>
+            <div><!--Row-->
+                <span class="material-symbols-outlined" id="icon-versus">
+                    tablet_mac
+                </span>
+                <h2 class="versus">VS</h2>
+                <span class="material-symbols-outlined icon-versus" id="icon-versus">
+                    face
+                </span>
+            </div>
+            <div><!--Row-->
+                <h2>PLAYER</h2>
+                <div id="row_player_results">
+                </div>
+            </div>
+        </div>
+        <div class="body_images"><!--Row-->
+            <img id="image_cpu" src="images/ready.png" alt="image-cpu">
+            <p id="result_text">Ready?</p>
+            <img id="image_player" src="images/ready.png" alt="image-player">
+        </div>
+        <div class="footer">
+            <div class="column">
+                <p>CPU</p>
+                <div id="row_cpu_board"><!--Row-->
+                </div>
+            </div>
+            <div class="column">
+                <p>PLAYER</p>
+                <div id="row_player_board">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
